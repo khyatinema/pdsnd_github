@@ -217,6 +217,7 @@ def user_stats(df):
 # display data method call
 def display_data(df):
     
+    
     counter = 0
     choice = input("\nDo you want to see the first 5 rows of data? (Enter 'Yes' or 'No') :  ").lower()
     if choice == "yes":
