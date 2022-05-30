@@ -8,7 +8,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv'}
 
-
+# get filter method call
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -54,7 +54,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+# load data method call
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -99,7 +99,7 @@ def load_data(city, month, day):
 
     return df
 
-
+# time_stats method call
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
