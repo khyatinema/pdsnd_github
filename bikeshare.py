@@ -214,7 +214,9 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+# displat data method call
 def display_data(df):
+    
     
     counter = 0
     choice = input("\nDo you want to see the first 5 rows of data? (Enter 'Yes' or 'No') :  ").lower()
